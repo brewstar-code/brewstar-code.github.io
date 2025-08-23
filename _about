@@ -1,5 +1,7 @@
----
+<!-- ---
 layout: default
+title: about
+permalink: /about/
 ---
 
 # 👋 Brewstar
@@ -41,4 +43,4 @@ layout: default
 
 ## 🚀 Featured Project
 
-- **[Meringue Trip](/meringuetrip)** — 여행자를 위한 위치 기반 탐색 서비스
+- **[Meringue Trip](/meringuetrip)** — 여행자를 위한 위치 기반 탐색 서비스 -->

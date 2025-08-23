@@ -30,8 +30,6 @@ url: "https://brewstar-code.github.io"
 theme: minima
 header_pages:
   - meringuetrip/index.markdown
-  - privacy.md
-  - support.md
 
 plugins:
   - jekyll-feed
