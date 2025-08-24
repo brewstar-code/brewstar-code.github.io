@@ -41,4 +41,4 @@ layout: default
 
 ## 🚀 Featured Project
 
-- **[Meringue Trip](/meringuetrip)** — 여행자를 위한 위치 기반 탐색 서비스
+- **[Meringue Trip](/meringuetrip)** — 두 곳 이상 찾을 땐?
