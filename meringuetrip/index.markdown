@@ -34,5 +34,5 @@ permalink: /meringuetrip/
 ### 📱 다운로드
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.brewstar.meringuetrip)
-- [App Store](https://apps.apple.com/app/머랭트립)
+- [App Store](https://apps.apple.com/kr/app/%EB%A8%B8%EB%9E%AD%ED%8A%B8%EB%A6%BD/id6751193690)
 <!-- 곧 Google Play와 App Store에서 제공될 예정입니다. -->
