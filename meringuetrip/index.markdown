@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
+title: 머랭트립
 permalink: /meringuetrip/
 ---
 
 두 곳 이상 찾을 땐?
-
-## 머랭트립 (Meringue Trip)
 
 데이트할 때마다 코스 이동이 길고 번거로우셨죠?  
 이젠 머랭트립으로 원하는 장소를, 원하는 위치에서 바로 찾아보세요.  
