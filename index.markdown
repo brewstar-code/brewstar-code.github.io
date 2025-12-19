@@ -42,3 +42,4 @@ layout: default
 ## 🚀 Featured Project
 
 - **[Meringue Trip](/meringuetrip)** — 두 곳 이상 찾을 땐?
+- **[Manjijak](/manjijak)** — 만지자~ㄱ
