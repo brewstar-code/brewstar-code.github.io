@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /manjijak/support/
+permalink: /syncyou/support/
 ---
 
 ## 📞 Support & Contact

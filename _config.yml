@@ -30,7 +30,7 @@ baseurl: ""
 theme: minima
 header_pages:
   - meringuetrip/index.markdown
-  - manjijak/index.markdown
+  - syncyou/index.markdown
 include:
   - ".well-known"
   - "app-ads.txt"
