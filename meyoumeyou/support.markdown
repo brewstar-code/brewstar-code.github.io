@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /syncyou/support/
+permalink: /meyoumeyou/support/
 ---
 
 ## 📞 Support & Contact

@@ -42,4 +42,4 @@ layout: default
 ## 🚀 Featured Project
 
 - **[Meringue Trip](/meringuetrip)** — 두 곳 이상 찾을 땐?
-- **[SyncYou](/syncyou)** — 싱크유
+- **[MeyouMeyou](/meyoumeyou)** — 미유미유
