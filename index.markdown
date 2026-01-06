@@ -43,3 +43,4 @@ layout: default
 
 - **[Meringue Trip](/meringuetrip)** — 두 곳 이상 찾을 땐?
 - **[MeyouMeyou](/meyoumeyou)** — 미유미유
+- **[Miripay](/miripay)** — 미리페이, 신뢰를 기록하다
