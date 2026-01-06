@@ -31,6 +31,7 @@ theme: minima
 header_pages:
   - meringuetrip/index.markdown
   - meyoumeyou/index.markdown
+  - miripay/index.markdown
 include:
   - ".well-known"
   - "app-ads.txt"
