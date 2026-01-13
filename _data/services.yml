@@ -21,7 +21,7 @@
   name_ko: "미유미유"
   name_en: "MeyouMeyou"
   status: ios_live_android_wip
-  tagline: "만지고 싶은 마음을 전하다 — 커플을 위한 햅틱 연결"
+  tagline: "장거리 커플을 위한 실시간 터치 공유"
   platforms:
     - kind: ios
       label: "App Store"
@@ -37,7 +37,7 @@
   name_ko: "미리페이"
   name_en: "Miripay"
   status: wip
-  tagline: "신뢰를 기록하다 — 사장님을 위한 스마트한 모바일 선불 장부"
+  tagline: "가장 쉬운 모바일 선불 페이"
   platforms: []
   links:
     home: "/miripay/"
