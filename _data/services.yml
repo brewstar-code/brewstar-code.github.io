@@ -1,0 +1,45 @@
+- key: meringuetrip
+  order: 10
+  name_ko: "머랭트립"
+  name_en: "MeringTrip"
+  status: live
+  tagline: "복잡한 장소 조합을 한 번에 찾는 군집 기반 위치 탐색"
+  platforms:
+    - kind: android
+      label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.brewstar.meringuetrip"
+    - kind: ios
+      label: "App Store"
+      url: "https://apps.apple.com/kr/app/%EB%A8%B8%EB%9E%AD%ED%8A%B8%EB%A6%BD/id6751193690"
+  links:
+    home: "/meringuetrip/"
+    support: "/meringuetrip/support/"
+    privacy: "/meringuetrip/privacy/"
+
+- key: meyoumeyou
+  order: 20
+  name_ko: "미유미유"
+  name_en: "MeyouMeyou"
+  status: ios_live_android_wip
+  tagline: "만지고 싶은 마음을 전하다 — 커플을 위한 햅틱 연결"
+  platforms:
+    - kind: ios
+      label: "App Store"
+      url: "https://apps.apple.com/kr/app/%EB%AF%B8%EC%9C%A0%EB%AF%B8%EC%9C%A0/id6756718662"
+  links:
+    home: "/meyoumeyou/"
+    support: "/meyoumeyou/support/"
+    privacy: "/meyoumeyou/privacy/"
+    child_safety: "/meyoumeyou/child-safety/"
+
+- key: miripay
+  order: 30
+  name_ko: "미리페이"
+  name_en: "Miripay"
+  status: wip
+  tagline: "신뢰를 기록하다 — 사장님을 위한 스마트한 모바일 선불 장부"
+  platforms: []
+  links:
+    home: "/miripay/"
+    support: "/miripay/support/"
+    privacy: "/miripay/privacy/"

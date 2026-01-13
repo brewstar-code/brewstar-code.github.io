@@ -122,12 +122,13 @@ permalink: /meyoumeyou/
 
 **지금 바로 파트너와 연결해보세요.**
 
-### 📱 다운로드
+### 다운로드
 
 - [App Store](https://apps.apple.com/kr/app/%EB%AF%B8%EC%9C%A0%EB%AF%B8%EC%9C%A0/id6756718662)
 <!-- - [Google Play](https://play.google.com/store/apps/details?id=com.brewstar.manjijak) -->
 
-### 📎 관련 링크
+### 관련 링크
 
-- [📞 Support (고객 지원)](mailto:uiwwsw@icloud.com)
-- [🔒 개인정보 처리방침](/meyoumeyou/privacy/)
+- [고객지원](/meyoumeyou/support/)
+- [개인정보 처리방침](/meyoumeyou/privacy/)
+- [아동 안전 정책](/meyoumeyou/child-safety/)

@@ -1,0 +1,39 @@
+<footer class="bs-footer" role="contentinfo">
+  <div class="bs-container bs-footer__inner">
+    <div class="bs-footer__top">
+      <div class="bs-footer__brand">
+        <div class="bs-footer__name">Brewstar <span class="bs-footer__ko">브루스타</span></div>
+        <div class="bs-footer__tagline">하늘의 별을 우려내듯, 복잡함에서 본질을 추출합니다.</div>
+      </div>
+
+      <div class="bs-footer__links">
+        <a href="{{ "/services/" | relative_url }}">서비스</a>
+        <a href="{{ "/#contact" | relative_url }}">문의</a>
+        <a href="{{ "/robots.txt" | relative_url }}">Robots</a>
+      </div>
+    </div>
+
+    <div class="bs-footer__meta">
+      <div class="bs-meta__row">
+        <span class="bs-meta__label">상호</span>
+        <span class="bs-meta__value">브루스타(Brewstar)</span>
+      </div>
+      <div class="bs-meta__row">
+        <span class="bs-meta__label">대표</span>
+        <span class="bs-meta__value">윤창원</span>
+      </div>
+      <div class="bs-meta__row">
+        <span class="bs-meta__label">사업자등록번호</span>
+        <span class="bs-meta__value">108-230-66945</span>
+      </div>
+      <div class="bs-meta__row">
+        <span class="bs-meta__label">이메일</span>
+        <span class="bs-meta__value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+      </div>
+    </div>
+
+    <div class="bs-footer__bottom">
+      <span class="bs-muted">© {{ "now" | date: "%Y" }} Brewstar.</span>
+    </div>
+  </div>
+</footer>

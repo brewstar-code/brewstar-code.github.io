@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: "미유미유 고객지원"
 permalink: /meyoumeyou/support/
 ---
 

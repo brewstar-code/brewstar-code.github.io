@@ -216,15 +216,14 @@ MeringTrip은:
 즉,  
 > “장소”가 아니라 **“장소 조합이 좋은 동네”를 찾게 해주는 지도 서비스**입니다.
 
-### 📎 관련 링크
+### 관련 링크
 
-- [📞 Support (고객 지원)](/meringuetrip/support/)
-- [🔒 개인정보 처리방침](/meringuetrip/privacy/)
+- [고객지원](/meringuetrip/support/)
+- [개인정보 처리방침](/meringuetrip/privacy/)
 
 ---
 
-### 📱 다운로드
+### 다운로드
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.brewstar.meringuetrip)
 - [App Store](https://apps.apple.com/kr/app/%EB%A8%B8%EB%9E%AD%ED%8A%B8%EB%A6%BD/id6751193690)
-<!-- 곧 Google Play와 App Store에서 제공될 예정입니다. -->

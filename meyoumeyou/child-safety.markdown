@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: "미유미유 아동 안전 정책"
 permalink: /meyoumeyou/child-safety/
 ---
 

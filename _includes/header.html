@@ -1,0 +1,16 @@
+<header class="bs-header" role="banner">
+  <div class="bs-container bs-header__inner">
+    <a class="bs-brand" href="{{ "/" | relative_url }}">
+      <span class="bs-brand__mark" aria-hidden="true"></span>
+      <span class="bs-brand__name">Brewstar</span>
+      <span class="bs-brand__ko">브루스타</span>
+    </a>
+
+    <nav class="bs-nav" aria-label="Primary">
+      {% assign current = page.url | default: "/" %}
+      <a class="bs-nav__link{% if current == "/" %} is-active{% endif %}" href="{{ "/" | relative_url }}">소개</a>
+      <a class="bs-nav__link{% if current contains "/services/" %} is-active{% endif %}" href="{{ "/services/" | relative_url }}">서비스</a>
+      <a class="bs-nav__cta" href="{{ "/#contact" | relative_url }}">문의</a>
+    </nav>
+  </div>
+</header>

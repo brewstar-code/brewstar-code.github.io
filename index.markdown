@@ -1,46 +1,88 @@
 ---
 layout: default
+title: Brewstar
 ---
 
-# 👋 Brewstar
+<div class="bs-container">
+  <div class="bs-hero">
+    <h1 class="bs-hero__title">Brewstar <span class="bs-muted">브루스타</span></h1>
+    <p class="bs-hero__subtitle">하늘의 별을 우려내듯, 복잡함에서 본질을 추출해 사용자에게는 명료한 경험으로 전달합니다. 브루스타는 B2C를 우선으로 신뢰할 수 있는 제품을 만듭니다.</p>
+    <div class="bs-hero__cta">
+      <a class="bs-btn is-primary" href="{{ "/services/" | relative_url }}">서비스 보기</a>
+      <a class="bs-btn" href="#contact">문의</a>
+    </div>
+  </div>
 
-**Brew**는 사전적으로 “끓여서 우려내다, 정성 들여 만들다”라는 뜻을 가지고 있습니다.
-저희는 이 단어를 그대로 받아, **복잡한 과정을 정성 들여 다루고, 결국 맑고 단순한 결과로 내놓는다**는 철학을 담았습니다.
+  <section class="bs-section" aria-label="Principles">
+    <h2 class="bs-section__title">원칙</h2>
+    <p class="bs-section__hint">만드는 과정은 단단하게, 결과는 단순하게.</p>
+    <div class="bs-grid">
+      <div class="bs-card bs-service" style="grid-column: span 12;">
+        <div class="bs-service__head">
+          <div class="bs-service__names">
+            <div class="bs-service__ko">정성으로 우려냄</div>
+            <div class="bs-service__en">Brew with Care</div>
+          </div>
+          <div class="bs-badge">원칙</div>
+        </div>
+        <p class="bs-service__tagline">복잡한 문제를 끝까지 다루고, 사용자는 단순한 결과만 얻도록 설계합니다.</p>
+      </div>
 
-여기에 **별(Star)**을 더했습니다.
-멀리 있고 차가운 별을 끌어와, 사람들에게 가까운 한 잔으로 내린다—
-그 과정을 상징적으로 표현한 이름이 바로 **브루스타(Brewstar)**입니다.
+      <div class="bs-card bs-service" style="grid-column: span 12;">
+        <div class="bs-service__head">
+          <div class="bs-service__names">
+            <div class="bs-service__ko">신뢰를 기본값으로</div>
+            <div class="bs-service__en">Trust by Default</div>
+          </div>
+          <div class="bs-badge">보안</div>
+        </div>
+        <p class="bs-service__tagline">서비스별로 개인정보 처리방침과 고객지원 채널을 명확히 제공하고, 책임 있는 운영을 우선합니다.</p>
+      </div>
 
-버너의 이름이 하나의 명사가 된 것처럼,
-**브루스타 역시 단순한 이름을 넘어, 일하는 방식과 태도를 의미합니다.**
+      <div class="bs-card bs-service" style="grid-column: span 12;">
+        <div class="bs-service__head">
+          <div class="bs-service__names">
+            <div class="bs-service__ko">현실의 성능</div>
+            <div class="bs-service__en">Real-world Performance</div>
+          </div>
+          <div class="bs-badge">품질</div>
+        </div>
+        <p class="bs-service__tagline">불안정한 네트워크와 다양한 기기 환경에서도 사용 흐름이 끊기지 않도록 품질을 끌어올립니다.</p>
+      </div>
+    </div>
+  </section>
 
----
+  <section class="bs-section" aria-label="Services Preview">
+    <h2 class="bs-section__title">제품</h2>
+    <p class="bs-section__hint">각 서비스는 독립적인 정책/지원 페이지를 운영합니다.</p>
+    <div class="bs-grid">
+      {% assign services = site.data.services | sort: "order" %}
+      {% for service in services %}
+        {% include service-card.html service=service %}
+      {% endfor %}
+    </div>
+  </section>
 
-## 📐 Principles — 브루스타의 작업 원칙
-
-- **끓이는 집중**: 불필요한 것을 덜어내고 본질만 남깁니다.
-- **식히는 판단**: 거리를 두고 다시 바라보며, 필요한 것만 남깁니다.
-- **한 잔의 명료함**: 복잡한 과정은 우리가 감당하고, 단순한 결과는 사용자가 누리게 합니다.
-- **현실의 성능**: 네트워크가 끊겨도 멈추지 않는 경험을 제공합니다.
-
----
-
-## 🧑‍💻 Matthew — 만드는 사람
-
-- 프론트엔드 개발자 | TypeScript · React · Ionic
-- 오프라인 우선, 지도 · 위치 서비스, 성능 최적화에 집중합니다.
-- **“코드는 짧게, 경험은 길게. 결과는 명료하게.”**
-
-**Contact & Profiles**
-
-- GitHub: [@uiwwsw](https://github.com/uiwwsw)
-- Velog: [@uiwwsw](https://velog.io/@uiwwsw)
-- Email: uiwwsw@icloud.com
-
----
-
-## 🚀 Featured Project
-
-- **[Meringue Trip](/meringuetrip)** — 두 곳 이상 찾을 땐?
-- **[MeyouMeyou](/meyoumeyou)** — 미유미유
-- **[Miripay](/miripay)** — 미리페이, 신뢰를 기록하다
+  <section id="contact" class="bs-section" aria-label="Contact">
+    <h2 class="bs-section__title">문의</h2>
+    <p class="bs-section__hint">이메일로 연락 주시면 확인 후 답변드립니다.</p>
+    <div class="bs-card" style="padding: 18px; border-radius: var(--radius);">
+      <div class="bs-meta__row">
+        <span class="bs-meta__label">이메일</span>
+        <span class="bs-meta__value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+      </div>
+      <div class="bs-meta__row" style="margin-top: 10px;">
+        <span class="bs-meta__label">대표</span>
+        <span class="bs-meta__value">윤창원</span>
+      </div>
+      <div class="bs-meta__row" style="margin-top: 10px;">
+        <span class="bs-meta__label">상호</span>
+        <span class="bs-meta__value">브루스타(Brewstar)</span>
+      </div>
+      <div class="bs-meta__row" style="margin-top: 10px;">
+        <span class="bs-meta__label">사업자등록번호</span>
+        <span class="bs-meta__value">108-230-66945</span>
+      </div>
+    </div>
+  </section>
+</div>

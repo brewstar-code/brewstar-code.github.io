@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: "미유미유 개인정보 처리방침"
 permalink: /meyoumeyou/privacy/
 ---
 

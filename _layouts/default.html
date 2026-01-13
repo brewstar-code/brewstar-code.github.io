@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+  </head>
+  <body class="bs-body">
+    {% include header.html %}
+
+    <main class="bs-main" role="main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

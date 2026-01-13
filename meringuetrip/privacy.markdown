@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: "머랭트립 개인정보 처리방침"
 permalink: /meringuetrip/privacy/
 ---
 

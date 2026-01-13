@@ -1,0 +1,46 @@
+{% assign key = include.service_key %}
+{% if key == nil or key == "" %}
+  {% assign segments = page.url | split: "/" %}
+  {% assign key = segments[1] %}
+{% endif %}
+
+{% assign service = site.data.services | where: "key", key | first %}
+
+{% if service %}
+  <div class="bs-service-meta" data-status="{{ service.status }}">
+    <div class="bs-service-meta__left">
+      <div class="bs-service-meta__title">
+        <span class="bs-service-meta__ko">{{ service.name_ko }}</span>
+        <span class="bs-service-meta__en">{{ service.name_en }}</span>
+      </div>
+      <div class="bs-badge" data-status="{{ service.status }}">
+        {% case service.status %}
+          {% when "live" %}서비스중
+          {% when "ios_live_android_wip" %}iOS 배포 · Android 작업중
+          {% when "wip" %}작업중
+          {% else %}진행중
+        {% endcase %}
+      </div>
+    </div>
+
+    <div class="bs-service-meta__right">
+      {% if service.platforms and service.platforms.size > 0 %}
+        <div class="bs-service-meta__platforms">
+          {% for platform in service.platforms %}
+            <a class="bs-pill" data-kind="{{ platform.kind }}" href="{{ platform.url }}" target="_blank" rel="noopener">{{ platform.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="bs-service-meta__links">
+        <a href="{{ service.links.privacy | relative_url }}">개인정보 처리방침</a>
+        <span class="bs-dot" aria-hidden="true">·</span>
+        <a href="{{ service.links.support | relative_url }}">고객지원</a>
+        {% if service.links.child_safety %}
+          <span class="bs-dot" aria-hidden="true">·</span>
+          <a href="{{ service.links.child_safety | relative_url }}">아동 안전 정책</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endif %}
