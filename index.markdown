@@ -26,14 +26,15 @@ title: Brewstar
       <h3 style="font-size: 1.2rem; margin-bottom: 12px; font-weight: 700; color: #60a5fa;">왜 '브루스타'인가요?</h3>
       <p style="line-height: 1.6; color: #e2e8f0; margin-bottom: 16px;">
         한국 사람들은 휴대용 가스버너를 <strong style="color: #fff;">'부루스타'</strong>라고 부릅니다. 
-        사실 그것은 미국의 가스기기 회사 'BlueStar'의 브랜드명이었습니다. 
+        사실 그것은 가스버너 브랜드명이었습니다. 
         특정 브랜드가 너무나 강력해서, 제품 그 자체를 지칭하는 <strong>보통명사</strong>가 되어버린 것입니다.
       </p>
       <p style="line-height: 1.6; color: #e2e8f0;">
         <strong style="color: #fff;">우리는 그 지점을 지향합니다.</strong><br>
-        어디서든 불을 켜는 기동성(BlueStar)과 별의 본질을 우려내는 장인정신(Brewing).<br>
-        우리가 출시하는 앱들이 처음엔 낯선 별처럼 보여도, 결국엔 여러분의 스마트폰 속에서 
-        가스버너처럼 당연하고 필수적인 존재가 되기를 꿈꿉니다.
+        '보통명사'가 가진 일상의 힘과, 가치를 끈기 있게 추출하는(Brewing) 진정성을 결합했습니다.
+        우리가 만드는 앱이 처음엔 낯선 별(Star)처럼 다가가겠지만,
+        결국엔 가스버너(부루스타)처럼 당신의 삶에서 이름 그 자체가 기능이 되는,
+        대체 불가능한 표준이 되기를 꿈꿉니다.
       </p>
     </div>
   </section>
