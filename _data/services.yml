@@ -4,6 +4,9 @@
   name_en: "MeringTrip"
   status: live
   tagline: "복잡한 장소 조합을 한 번에 찾는 군집 기반 위치 탐색"
+  tech_stack:
+    - Ionic (React)
+    - Cloudflare
   platforms:
     - kind: android
       label: "Google Play"
@@ -22,6 +25,9 @@
   name_en: "MeyouMeyou"
   status: ios_live_android_wip
   tagline: "장거리 커플을 위한 실시간 터치 공유"
+  tech_stack:
+    - Flutter
+    - Supabase
   platforms:
     - kind: ios
       label: "App Store"
@@ -38,6 +44,9 @@
   name_en: "Miripay"
   status: wip
   tagline: "가장 쉬운 모바일 선불 페이"
+  tech_stack:
+    - Flutter
+    - Supabase
   platforms: []
   links:
     home: "/miripay/"

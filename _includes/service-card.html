@@ -9,22 +9,31 @@
 
     <div class="bs-badge" data-status="{{ service.status }}">
       {% case service.status %}
-        {% when "live" %}서비스중
-        {% when "ios_live_android_wip" %}iOS 배포 · Android 작업중
-        {% when "wip" %}작업중
-        {% else %}진행중
+      {% when "live" %}서비스중
+      {% when "ios_live_android_wip" %}iOS 배포 · Android 작업중
+      {% when "wip" %}작업중
+      {% else %}진행중
       {% endcase %}
     </div>
   </div>
 
   <p class="bs-service__tagline">{{ service.tagline }}</p>
 
+  {% if service.tech_stack %}
+  <div class="bs-service__stack">
+    {% for tech in service.tech_stack %}
+    <span class="bs-tech">{{ tech }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   {% if service.platforms and service.platforms.size > 0 %}
-    <div class="bs-service__platforms" aria-label="Platforms">
-      {% for platform in service.platforms %}
-        <a class="bs-pill" data-kind="{{ platform.kind }}" href="{{ platform.url }}" target="_blank" rel="noopener">{{ platform.label }}</a>
-      {% endfor %}
-    </div>
+  <div class="bs-service__platforms" aria-label="Platforms">
+    {% for platform in service.platforms %}
+    <a class="bs-pill" data-kind="{{ platform.kind }}" href="{{ platform.url }}" target="_blank" rel="noopener">{{
+      platform.label }}</a>
+    {% endfor %}
+  </div>
   {% endif %}
 
   <div class="bs-service__actions">
@@ -33,7 +42,7 @@
       <a href="{{ service.links.privacy | relative_url }}">개인정보</a>
       <a href="{{ service.links.support | relative_url }}">고객지원</a>
       {% if service.links.child_safety %}
-        <a href="{{ service.links.child_safety | relative_url }}">아동 안전</a>
+      <a href="{{ service.links.child_safety | relative_url }}">아동 안전</a>
       {% endif %}
     </div>
   </div>
