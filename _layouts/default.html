@@ -3,9 +3,70 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="브루스타(Brewstar) - 별을 달여내어 표준이 되는 IT 기업. 혁신적인 모바일 앱 서비스로 일상의 가치를 높입니다.">
+    <meta name="keywords" content="브루스타, Brewstar, 앱 개발, 모바일 앱, 머랭트립, 미유미유, 미리페이, 1인기업, 프로그래머, IT 기업">
+    <meta name="author" content="Brewstar (브루스타)">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Brewstar (브루스타) - 별을 달여내어 표준이 되다">
+    <meta property="og:description" content="혁신적인 모바일 앱 개발 전문 기업. 머랭트립, 미유미유, 미리페이 등 다양한 서비스로 일상의 가치를 높입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url | absolute_url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url | absolute_url }}/assets/images/og-image.jpg">
+    <meta property="og:site_name" content="Brewstar (브루스타)">
+    <meta property="og:locale" content="ko_KR">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Brewstar (브루스타) - 별을 달여내어 표준이 되다">
+    <meta name="twitter:description" content="혁신적인 모바일 앱 개발 전문 기업. 일상의 가치를 높이는 다양한 서비스를 제공합니다.">
+    <meta name="twitter:image" content="{{ site.url | absolute_url }}/assets/images/og-image.jpg">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="naver-site-verification" content="naver_verification_code">
+    <meta name="google-site-verification" content="google_verification_code">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Brewstar (브루스타)",
+      "alternateName": "브루스타",
+      "url": "{{ site.url | absolute_url }}",
+      "logo": "{{ site.url | absolute_url }}/assets/images/logo.png",
+      "description": "별을 달여내어 표준이 되는 IT 기업. 혁신적인 모바일 앱 서비스로 일상의 가치를 높입니다.",
+      "founder": {
+        "@type": "Person",
+        "name": "윤창원"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ site.email }}",
+        "contactType": "customer service"
+      },
+      "sameAs": []
+    }
+    </script>
+    
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+    <link rel="canonical" href="{{ site.url | absolute_url }}{{ page.url }}">
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#a88bff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Brewstar">
   </head>
   <body class="bs-body">
     {% include header.html %}

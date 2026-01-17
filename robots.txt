@@ -1,3 +1,19 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://brewstar-code.github.io/sitemap.xml
+
+# Block common bot paths
+Disallow: /_site/
+Disallow: /_drafts/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /vendor/
+
+# Allow specific indexing paths
+Allow: /assets/
+Allow: /meringuetrip/
+Allow: /meyoumeyou/
+Allow: /miripay/
+
+Crawl-delay: 1

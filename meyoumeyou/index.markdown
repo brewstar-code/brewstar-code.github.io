@@ -1,37 +1,60 @@
 ---
 layout: page
-title: 미유미유
+title: 미유미유 (MeyouMeyou) - 커플을 위한 햅틱 연결 앱
+description: 미유미유는 커플을 위한 햅틱 연결 앱입니다. 실시간 진동으로 "만지고 싶은 마음"을 전달하는 차세대 디지털 스킨십 플랫폼.
 permalink: /meyoumeyou/
 ---
 
-# 미유미유 (MeyouMeyou)
+<div class="bs-service-hero">
+  <div class="bs-service-hero__content">
+    <h1 class="bs-service-hero__title">MeyouMeyou</h1>
+    <h2 class="bs-service-hero__subtitle">"만지고 싶은 마음을 전하다" – 커플을 위한 햅틱 연결 앱</h2>
+    <div class="bs-service-hero__stats">
+      <div class="bs-service-stat">
+        <div class="bs-service-stat__number">🤝</div>
+        <div class="bs-service-stat__label">감정적 연결</div>
+      </div>
+      <div class="bs-service-stat">
+        <div class="bs-service-stat__number">📱</div>
+        <div class="bs-service-stat__label">햅틱 기술</div>
+      </div>
+      <div class="bs-service-stat">
+        <div class="bs-service-stat__number">💝</div>
+        <div class="bs-service-stat__label">디지털 스킨십</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-### "만지고 싶은 마음을 전하다" – 커플을 위한 햅틱 연결 앱
-
-## 1. 서비스 한 줄 정의
-
-**미유미유(MeyouMeyou)**는  
-말로 다 전할 수 없는 "보고 싶다", "생각난다"는 감정을
-
-> "화면에 뜬 하트를 **쓰다듬고, 누르고, 간질이는** 촉감으로 변환하여"
-
-파트너의 손끝에 **실시간 진동으로 전달하는 커플 연결 앱**입니다.
+<div class="bs-service-definition">
+  <h2 class="bs-service-definition__title">서비스 핵심 가치</h2>
+  <p class="bs-service-definition__text">
+    <strong>미유미유(MeyouMeyou)</strong>는 텍스트와 이모티콘으로는 표현할 수 없는 깊은 감정을 
+    <strong>실시간 햅틱 기술로 파트너에게 직접 전달</strong>하는 혁신적인 커플 연결 플랫폼입니다.
+    "보고 싶다", "생각난다"는 마음을 화면 터치의 촉감으로 변환하여 
+    상대방의 손끝에 생생한 진동으로 전달하는 차세대 디지털 스킨십 서비스입니다.
+  </p>
+</div>
 
 ---
 
-## 2. 기존 커플 앱의 아쉬움
+## 문제 정의: 기존 커플 앱의 감정적 한계
 
-기존 메신저나 커플 앱은 대부분 **"텍스트/시각 기반"**입니다.
+### 시장 분석: 텍스트 중심의 소통 한계
 
-- `보고 싶어` 텍스트 전송 → 읽었는지 안 읽었는지 기다림
-- 이모티콘 전송 → 시각적인 귀여움에 그침
-- **"지금 당장 너를 만지고 싶어"**라는 강렬한 신체적 갈망을 해소하기엔 역부족입니다.
+현대 커플 앱과 메신저 서비스는 **"텍스트/시각 기반"** 소통에 한정되어 있어 깊은 감정적 연결에 한계가 있습니다:
 
-이로 인해:
+### 기존 방식의 감정적 부족
+- **텍스트 전송**: `보고 싶어` 메시지 전송 후 응답 대기의 불안감
+- **이모티콘 소통**: 시각적 표현에 그쳐 실질적인 감정 전달 부족
+- **감정의 격차**: **"지금 당장 너를 만지고 싶어"**라는 신체적 갈망 해소 불가
 
-- 감정이 텍스트로 납작해짐
-- 멀리 떨어져 있을 때의 "피부 닿고 싶은 그리움"은 채워지지 않음
-- 연락이 의무감처럼 느껴질 때가 있음
+### 사용자 경험의 한계
+1. **감정의 왜곡**: 깊은 감정이 텍스트로 평면화됨
+2. **물리적 거리감**: 장거리 연인의 "피부 닿고 싶은 그리움" 미해결
+3. **소통의 피로감**: 연락이 의무감으로 변질될 수 있음
+
+이러한 감정적 격차는 **커플 관계의 깊이 있는 연결을 저해**하는 주요 요인으로 작용합니다.
 
 ---
 
