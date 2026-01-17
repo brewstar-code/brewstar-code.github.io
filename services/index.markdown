@@ -9,7 +9,6 @@ permalink: /services/
   <p class="bs-hero__subtitle">브루스타는 B2C 경험을 중심으로, 신뢰할 수 있는 제품을 만듭니다. 각 서비스는 개인정보 처리방침과 고객지원 채널을 독립적으로 운영합니다.</p>
   <div class="bs-hero__cta">
     <a class="bs-btn is-primary" href="{{ "/" | relative_url }}">브루스타 소개</a>
-    <a class="bs-btn" href="{{ "/#contact" | relative_url }}">문의</a>
   </div>
 </div>
 

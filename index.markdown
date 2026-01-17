@@ -9,9 +9,9 @@ description: 브루스타(Brewstar) - 별을 달여내어 표준이 되는 IT �
   <div class="bs-hero">
     <h1 class="bs-hero__title">Brewstar <span class="bs-muted">브루스타</span></h1>
     <p class="bs-hero__subtitle">
-      <strong>"Brew the Star, Be the Standard."</strong><br>
-      별을 달여내어 표준이 됩니다. 우리는 찬란한 아이디어를 진정성 있게 추출하여,
-      당신의 일상에 스며드는 필수적인 솔루션으로 만들어갑니다.
+      <strong>"생각에 불을 켜고, 본질을 우려냅니다."</strong><br>
+      <span class="bs-hero__subtext">Ignite the Idea, Brew the Essence.</span><br>
+      어디서나 통하는 보통명사처럼, 당신의 일상에 스며드는 소프트웨어.
     </p>
     <div class="bs-hero__stats">
       <div class="bs-stat">
@@ -30,110 +30,134 @@ description: 브루스타(Brewstar) - 별을 달여내어 표준이 되는 IT �
     <div class="bs-hero__cta">
       <a class="bs-btn is-primary" href="{{ "/services/" | relative_url }}">서비스 보기</a>
       <a class="bs-btn" href="#technology">기술 스택</a>
+      <a class="bs-btn" href="#contact">문의하기</a>
     </div>
   </div>
 
   <section class="bs-section" aria-label="Brand Origin">
-    <h2 class="bs-section__title">브랜드 스토리</h2>
-    <p class="bs-section__hint">From a Star to the Noun.</p>
+    <h2 class="bs-section__title">이름의 두 가지 온도</h2>
+    <p class="bs-section__hint">The Burner & The Brew</p>
     
-    <div class="bs-card bs-brand-story">
-      <div class="bs-brand-story__header">
-        <div class="bs-brand-story__icon">⭐</div>
-        <h3 class="bs-brand-story__title">왜 '브루스타'인가요?</h3>
+    <div class="bs-grid">
+      <div class="bs-card bs-brand-temperature" style="grid-column: span 12;">
+        <div class="bs-brand-temperature__header">
+          <div class="bs-brand-temperature__icon">🔥</div>
+          <div class="bs-brand-temperature__content">
+            <h3 class="bs-brand-temperature__title">The Burner (발화점)</h3>
+            <p class="bs-brand-temperature__subtitle">어디서나 통하는 보통명사</p>
+          </div>
+        </div>
+        <div class="bs-brand-temperature__description">
+          한국인에게 '부루스타'는 휴대용 가스버너의 대명사입니다. 특정 브랜드가 제품 그 자체가 되어버린 것처럼, 브루스타는 복잡한 문제를 해결하는 '그 앱', '그 서비스'라는 대명사가 되기를 꿈꿉니다. 언제 어디서든 필요할 때 즉각적으로 불을 켜는 기동성, 그것이 브루스타의 속도입니다.
+        </div>
       </div>
-      
-      <div class="bs-brand-story__content">
-        <div class="bs-brand-story__block">
-          <h4 class="bs-brand-story__subtitle">용어의 탄생</h4>
-          <p class="bs-brand-story__text">
-            한국인들은 휴대용 가스버너를 <strong>'부루스타'</strong>라고 부릅니다. 
-            특정 브랜드가 너무나 강력해서, 제품 그 자체를 지칭하는 
-            <strong>보통명사</strong>가 된 현상입니다.
-          </p>
+
+      <div class="bs-card bs-brand-temperature" style="grid-column: span 12;">
+        <div class="bs-brand-temperature__header">
+          <div class="bs-brand-temperature__icon">⭐</div>
+          <div class="bs-brand-temperature__content">
+            <h3 class="bs-brand-temperature__title">The Brew (추출)</h3>
+            <p class="bs-brand-temperature__subtitle">별을 우려내는 장인정신</p>
+          </div>
         </div>
-        
-        <div class="bs-brand-story__block">
-          <h4 class="bs-brand-story__subtitle">우리의 철학</h4>
-          <p class="bs-brand-story__text">
-            <strong>'별을 달여내다'</strong>는 찬란한 아이디어를 끈기 있게 추출하여,
-            복잡함 없는 순수한 가치로 만드는 과정을 의미합니다.
-            반짝이는 별(Star)에서 출발하여, 일상의 필수품이 되는 
-            보통명사로 거듭나는 것을 지향합니다.
-          </p>
-        </div>
-        
-        <div class="bs-brand-story__block">
-          <h4 class="bs-brand-story__subtitle">표준이 되는 길</h4>
-          <p class="bs-brand-story__text">
-            우리의 앱이 처음에는 낯선 별처럼 다가가더라도,
-            사용자의 삶에 깊이 스며들어 <strong>이름 그 자체가 기능이 되는</strong>
-            대체 불가능한 표준으로 자리매김하기를 꿈꿉니다.
-          </p>
+        <div class="bs-brand-temperature__description">
+          'Brewstar'는 별(Star)을 우려낸다(Brew)는 뜻을 품고 있습니다. 찻잎에서 가장 깊은 향을 우려내듯, 복잡한 기술과 기능 속에서 사용자가 진정으로 필요로 하는 '가치'만을 정제해냅니다. 화려한 겉치레보다는 단단한 본질을 만드는 과정, 이것이 브루스타의 태도입니다.
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bs-section" aria-label="Principles">
-    <h2 class="bs-section__title">핵심 원칙</h2>
-    <p class="bs-section__hint">일상의 연금술(The Essential Alchemy)을 위한 3가지 약속</p>
+  <section class="bs-section" aria-label="Core Values">
+    <h2 class="bs-section__title">Our Principles</h2>
+    <p class="bs-section__hint">1인 개발사가 가진 강점을 프로페셔널하게 정의합니다</p>
     <div class="bs-grid">
       
-      <div class="bs-card bs-principle" style="grid-column: span 12;">
-        <div class="bs-principle__icon">🔥</div>
-        <div class="bs-principle__content">
-          <div class="bs-principle__header">
-            <div class="bs-principle__names">
-              <div class="bs-principle__ko">즉각적인 점화</div>
-              <div class="bs-principle__en">Ignite First</div>
+      <div class="bs-card bs-core-value" style="grid-column: span 12;">
+        <div class="bs-core-value__icon">⚡</div>
+        <div class="bs-core-value__content">
+          <div class="bs-core-value__header">
+            <div class="bs-core-value__names">
+              <div class="bs-core-value__ko">Essentialism</div>
+              <div class="bs-core-value__en">본질 집중</div>
             </div>
-            <div class="bs-badge" style="background: var(--accent2-gradient); border-color: rgba(255, 179, 71, 0.3);">기동성</div>
+            <div class="bs-badge" style="background: var(--accent2-gradient); border-color: rgba(245, 158, 11, 0.3);">핵심</div>
           </div>
-          <p class="bs-principle__description">
-            가스버너가 언제 어디서든 즉시 불을 피울 수 있듯, 
-            우리의 서비스는 복잡한 설정 없이 사용하는 순간 바로 가치를 제공합니다.
-            사용자 경험의 첫인상에서부터 신뢰를 만들어갑니다.
+          <p class="bs-core-value__quote">"기능을 더하는 것은 쉽습니다. 빼는 것이 기술입니다."</p>
+          <p class="bs-core-value__description">
+            우리는 100가지 기능을 나열하는 대신, 사용자가 매일 쓰게 될 단 하나의 핵심 경험을 집요하게 파고듭니다. 별을 우려내듯 군더더기는 거르고 정수(Essence)만 남깁니다.
           </p>
         </div>
       </div>
 
-      <div class="bs-card bs-principle" style="grid-column: span 12;">
-        <div class="bs-principle__icon">☕</div>
-        <div class="bs-principle__content">
-          <div class="bs-principle__header">
-            <div class="bs-principle__names">
-<div class="bs-principle__ko">정밀하게 다듬음</div>
-          <div class="bs-principle__en">Deep Refinement</div>
-        </div>
-        <div class="bs-badge" style="background: var(--accent3-gradient); border-color: rgba(77, 212, 172, 0.3);">본질</div>
-      </div>
-      <p class="bs-principle__description">
-        좋은 커피를 시간을 들여 진하게 우려내듯,
-        우리는 반짝이는 아이디어를 끈기 있게 다듬어
-        복잡함을 덜어낸 순수한 가치의 '엑기스'를 추출합니다.
-          </p>
-        </div>
-      </div>
-
-      <div class="bs-card bs-principle" style="grid-column: span 12;">
-        <div class="bs-principle__icon">🛡️</div>
-        <div class="bs-principle__content">
-          <div class="bs-principle__header">
-            <div class="bs-principle__names">
-              <div class="bs-principle__ko">신뢰라는 표준</div>
-              <div class="bs-principle__en">Trust by Default</div>
+      <div class="bs-card bs-core-value" style="grid-column: span 12;">
+        <div class="bs-core-value__icon">🚀</div>
+        <div class="bs-core-value__content">
+          <div class="bs-core-value__header">
+            <div class="bs-core-value__names">
+              <div class="bs-core-value__ko">Agile Resilience</div>
+              <div class="bs-core-value__en">실패를 두려워 않는 속도</div>
             </div>
-            <div class="bs-badge" style="background: var(--accent-gradient); border-color: rgba(168, 139, 255, 0.3);">보안</div>
+            <div class="bs-badge" style="background: var(--accent-gradient); border-color: rgba(59, 130, 246, 0.3);">기동성</div>
           </div>
-          <p class="bs-principle__description">
-            '부루스타'가 보통명사가 된 것은 압도적인 신뢰 때문이었습니다.
-            우리는 개인정보 보호와 데이터 안정성을 타협할 수 없는 표준으로 지키며,
-            사용자의 신뢰를 대체 불가능한 자산으로 여깁니다.
+          <p class="bs-core-value__quote">"가볍게 시작하고, 빠르게 수정하며, 단단하게 완성합니다."</p>
+          <p class="bs-core-value__description">
+            거대한 계획보다 빠른 실행을 믿습니다. 1인 개발사의 기동력으로 시장의 반응에 즉각 대응하며, 실패를 데이터 삼아 더 나은 답을 찾아냅니다. 우리는 기다리게 하지 않습니다.
           </p>
         </div>
       </div>
 
+      <div class="bs-card bs-core-value" style="grid-column: span 12;">
+        <div class="bs-core-value__icon">🛠️</div>
+        <div class="bs-core-value__content">
+          <div class="bs-core-value__header">
+            <div class="bs-core-value__names">
+              <div class="bs-core-value__ko">Solid Engineering</div>
+              <div class="bs-core-value__en">단단한 기술</div>
+            </div>
+            <div class="bs-badge" style="background: var(--accent3-gradient); border-color: rgba(100, 255, 218, 0.3);">신뢰</div>
+          </div>
+          <p class="bs-core-value__quote">"보이지 않는 뒷면까지, 10년의 밀도로 설계합니다."</p>
+          <p class="bs-core-value__description">
+            화면 앞의 화려함 뒤에는 견고한 구조가 있어야 합니다. 10년 차 프론트엔드 엔지니어의 경험을 바탕으로, 겉만 번지르르한 제품이 아닌 오랫동안 신뢰할 수 있는 소프트웨어를 만듭니다.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="bs-section" aria-label="Founder's Voice">
+    <h2 class="bs-section__title">Founder's Voice</h2>
+    <p class="bs-section__hint">10년 경력의 프론트엔드 엔지니어가 1인 개발사를 선택한 이유</p>
+    
+    <div class="bs-card bs-ceo-message">
+      <div class="bs-ceo-message__header">
+        <div class="bs-ceo-message__avatar">
+          <div class="bs-ceo-message__initial">YC</div>
+        </div>
+        <div class="bs-ceo-message__info">
+          <h3 class="bs-ceo-message__name">윤창원</h3>
+          <p class="bs-ceo-message__title">대표 / 10년 차 프론트엔드 엔지니어</p>
+        </div>
+      </div>
+      
+      <div class="bs-ceo-message__content">
+        <blockquote class="bs-ceo-message__quote">
+          "기술은 도구일 뿐, 결국은 사람의 이야기입니다."
+        </blockquote>
+        
+        <div class="bs-ceo-message__text">
+          <p>
+            10년 동안 프론트엔드 엔지니어로서 수많은 코드를 쌓아올리며 깨달은 것은, 최고의 기술은 사용자의 삶 속에 공기처럼 스며든다는 사실입니다.
+          </p>
+          <p>
+            저는 거대하고 무거운 조직 대신, 기민하고 날카로운 1인 개발사 <strong>브루스타(Brewstar)</strong>를 시작했습니다. 이는 사용자의 목소리에 가장 가까이서 귀 기울이고, 그 필요를 가장 빠르게 제품으로 구현하기 위함입니다.
+          </p>
+          <p>
+            휴대용 버너가 어디서든 따뜻한 밥을 짓게 해주듯, 밤하늘의 별이 길을 비추듯, 브루스타는 당신의 일상에 꼭 필요한 온기와 빛이 되는 서비스를 만들겠습니다.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 

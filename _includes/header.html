@@ -10,7 +10,6 @@
       {% assign current = page.url | default: "/" %}
       <a class="bs-nav__link{% if current == "/" %} is-active{% endif %}" href="{{ "/" | relative_url }}">소개</a>
       <a class="bs-nav__link{% if current contains "/services/" %} is-active{% endif %}" href="{{ "/services/" | relative_url }}">서비스</a>
-      <a class="bs-nav__cta" href="{{ "/#contact" | relative_url }}">문의</a>
     </nav>
   </div>
 </header>
