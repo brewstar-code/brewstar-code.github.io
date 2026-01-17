@@ -1,0 +1,33 @@
+{
+  "name": "Brewstar (브루스타)",
+  "short_name": "Brewstar",
+  "description": "별처럼 빛나는 아이디어를 정제해 표준으로 만드는 IT 기업",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#a88bff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/images/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "ko-KR",
+  "dir": "ltr"
+}

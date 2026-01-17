@@ -55,7 +55,17 @@
     
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}" sizes="any">
+    <link rel="icon" href="{{ "/assets/images/favicon.svg" | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ "/assets/images/logo-192x192.png" | relative_url }}">
+    <link rel="icon" href="{{ "/assets/images/favicon-16x16.png" | relative_url }}" sizes="16x16">
+    <link rel="icon" href="{{ "/assets/images/favicon-32x32.png" | relative_url }}" sizes="32x32">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    
     <link rel="canonical" href="{{ site.url | absolute_url }}{{ page.url }}">
     
     <!-- Performance Optimizations -->
