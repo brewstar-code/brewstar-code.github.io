@@ -5,7 +5,7 @@
   status: live
   tagline: "반경으로 완성하는 여행 설계 도구"
   tech_stack:
-    - Ionic (React)
+    - Flutter
     - Cloudflare
   platforms:
     - kind: android
