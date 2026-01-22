@@ -1,6 +1,13 @@
 {% assign service = include.service %}
+{% assign service_images = site.data.service_images[service.key] %}
 
 <article class="bs-card bs-service" data-status="{{ service.status }}">
+  {% if service_images and service_images.logo %}
+  <div class="bs-app-logo">
+    <img src="{{ service_images.logo | relative_url }}" alt="{{ service.name_ko }} 로고" loading="lazy">
+  </div>
+  {% endif %}
+
   <div class="bs-service__head">
     <div class="bs-service__names">
       <div class="bs-service__ko">{{ service.name_ko }}</div>
@@ -18,6 +25,43 @@
   </div>
 
   <p class="bs-service__tagline">{{ service.tagline }}</p>
+
+  {% if service_images and service_images.preview_gallery %}
+  <div class="bs-service-gallery">
+    <div class="bs-gallery__container">
+      <div class="bs-gallery__slides" id="gallery-card-{{ service.key }}">
+        {% for image in service_images.preview_gallery %}
+        <div class="bs-gallery__slide">
+          <div class="bs-device-frame">
+            <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" loading="lazy" class="bs-device-frame__content">
+          </div>
+          {% if image.caption %}
+          <div class="bs-gallery__caption">{{ image.caption }}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="bs-gallery__controls">
+      <div class="bs-gallery__nav">
+        <button class="bs-gallery__btn" onclick="prevSlide('card-{{ service.key }}')" aria-label="이전">←</button>
+        <button class="bs-gallery__btn" onclick="nextSlide('card-{{ service.key }}')" aria-label="다음">→</button>
+      </div>
+      {% if service_images.preview_gallery.size > 1 %}
+      <div class="bs-gallery__thumbs">
+        {% for image in service_images.preview_gallery %}
+        <div class="bs-gallery__thumb {% if forloop.first %}active{% endif %}" onclick="goToSlide('card-{{ service.key }}', {{ forloop.index0 }})">
+          <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="bs-gallery__counter">
+        <span id="current-card-{{ service.key }}">1</span> / {{ service_images.preview_gallery.size }}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 
   {% if service.tech_stack %}
   <div class="bs-service__stack">

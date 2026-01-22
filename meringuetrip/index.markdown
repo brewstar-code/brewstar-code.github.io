@@ -1,55 +1,83 @@
 ---
 layout: page
-title: 머랭트립 (MeringTrip) - 군집 기반 위치 탐색 앱
-description: 머랭트립은 복잡한 장소 조합을 한 번에 찾는 군집 기반 위치 탐색 앱입니다. 카카오맵과 네이버지도의 한계를 극복한 차세대 지도 인텔리전스 서비스.
+title: 머랭트립 (MeringTrip) - 반경으로 완성하는 여행 설계 도구
+description: 카페·호텔·술집, 전부 걸어서. 동선까지 생각해주는 여행 검색 앱. 반경 기반으로 완벽한 하루를 설계하세요.
 permalink: /meringuetrip/
 ---
 
 <div class="bs-service-hero">
   <div class="bs-service-hero__content">
     <h1 class="bs-service-hero__title">MeringTrip</h1>
-    <h2 class="bs-service-hero__subtitle">복잡한 장소 조합을 한 번에 찾는 군집 기반 위치 탐색 앱</h2>
+    <h2 class="bs-service-hero__subtitle">카페·호텔·술집, 전부 걸어서. 동선까지 생각해주는 여행 검색.</h2>
+    <div class="bs-app-logo">
+      <img src="/assets/images/services/meringuetrip/logo.png" alt="MeringTrip 로고" loading="lazy">
+    </div>
     <div class="bs-service-hero__stats">
       <div class="bs-service-stat">
-        <div class="bs-service-stat__number">✓</div>
-        <div class="bs-service-stat__label">실시간 군집 분석</div>
+        <div class="bs-service-stat__number">📍</div>
+        <div class="bs-service-stat__label">반경 기반 검색</div>
       </div>
       <div class="bs-service-stat">
-        <div class="bs-service-stat__number">⚡</div>
-        <div class="bs-service-stat__label">즉각적 최적화</div>
+        <div class="bs-service-stat__number">☕️</div>
+        <div class="bs-service-stat__label">멀티 장소 동시 검색</div>
       </div>
       <div class="bs-service-stat">
         <div class="bs-service-stat__number">🎯</div>
-        <div class="bs-service-stat__label">정밀 위치 인텔리전스</div>
+        <div class="bs-service-stat__label">동선 중심 설계</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bs-screenshot-grid">
+  <div class="bs-screenshot-grid__row cols-1">
+    <div class="bs-screenshot-item">
+      <div class="bs-device-frame">
+        <img src="/assets/images/services/meringuetrip/hero-map-home.jpg" alt="머랭트립 메인 지도 화면" loading="lazy" class="bs-device-frame__content">
+      </div>
+      <div class="bs-screenshot-item__overlay">
+        <div class="bs-screenshot-item__title">군집 기반 지도 탐색</div>
       </div>
     </div>
   </div>
 </div>
 
 <div class="bs-service-definition">
-  <h2 class="bs-service-definition__title">서비스 핵심 가치</h2>
+  <h2 class="bs-service-definition__title">머랭트립은 '장소'가 아니라 '거리'를 기준으로 여행을 설계합니다.</h2>
   <p class="bs-service-definition__text">
-    <strong>MeringTrip(머랭트립)</strong>은 기존 지도 서비스의 한계를 극복하는 혁신적인 위치 탐색 솔루션입니다. 
-    사용자가 카카오맵과 네이버지도에서 여러 번 검색하며 시각적으로 비교하던 번거로운 과정을 
-    <strong>단 한 번의 통합 검색으로 최적의 군집 구역을 자동 탐색</strong>해주는 차세대 지도 인텔리전스 서비스입니다.
+    카페를 찾고, 숙소를 찾고, 술집을 찾았는데 <strong>전부 너무 멀다면 그 여행은 실패입니다.</strong><br><br>
+    
+    머랭트립은 반경 안에서 여행을 완성하는 서비스입니다. 내가 원하는 장소들을 내가 정한 반경 안에서 한 번에 검색하여 불필요한 이동을 최소화합니다.
   </p>
 </div>
 
-## 문제 정의: 기존 지도 서비스의 한계
+## 이런 경험, 한 번쯤 해보셨죠?
 
-현대 지도 서비스(카카오맵, 네이버지도 등)는 **"단일 검색어 기반"** 구조로 인해 복합적인 의사결정에 큰 비효율을 초래합니다:
+* 카페는 좋은데 숙소까지 40분
+* 호텔은 마음에 드는데 술집이 없음  
+* 검색은 많은데 동선은 엉망
 
-### 기존 방식의 비효율성
-- `강남 카페` 검색 → 카페 핀만 표시  
-- `강남 공유오피스` 검색 → 오피스 핀만 표시  
-- 사용자의 실제 필요: **"카페 + 공유오피스 + 저녁 식당이 모두 가까운 동네"**
+**머랭트립은 이 문제에서 출발했습니다.**
 
-### 사용자 부담 가중
-1. **검색 반복**: 여러 조건을 개별 검색해야 함
-2. **인지 부하**: 각 결과를 기억하고 시각적으로 비교해야 함  
-3. **추론 의존**: "대충 여기쯤 겹치는 것 같다"를 감으로 판단해야 함
+---
 
-이러한 구조는 **조건이 많아질수록 계산 복잡도가 기하급수적으로 증가**하여 최적 의사결정을 어렵게 만듭니다.
+## 머랭트립의 핵심 기능
+
+### 📍 반경 기반 검색
+
+"도보 5분", "도보 10분" - 이동 가능한 거리만 설정하세요. 카페, 호텔, 술집이 모두 반경 안에서 완벽하게 조화를 이룹니다.
+
+### ☕️ + 🏨 + 🍺 멀티 장소 동시 검색
+
+카페, 호텔, 술집을 **따로 검색하지 않습니다**. 한 화면에서, 한 반경 안에서 모든 장소를 동시에 찾아 드립니다.
+
+### 🗺️ 동선 중심 설계  
+
+지도는 보조입니다. 기준은 **사람의 이동 거리**입니다. 최소한의 이동으로 최대의 경험을 설계합니다.
+
+### 🎯 여행·데이트·로컬 탐방에 최적화
+
+여행자, 데이트 코스, 주말 나들이, 혼술·혼카페까지. 모든 이동의 완벽한 동선을 제안합니다.
 
 ---
 
@@ -76,32 +104,75 @@ permalink: /meringuetrip/
 
 ---
 
-## 혁신적 해결책: 군집 기반 인텔리전스
+## 대표 사용 시나리오
 
-### 핵심 가치 제안
+### 🎯 여행자를 위한 완벽한 하루
 
-**MeringTrip의 본질적인 가치는 "교집합을 자동으로 보여주는 지도 인텔리전스"입니다.**
+"카페 → 호텔 → 술집, 전부 도보 10분"
 
-사용자는 복합적인 장소 조건을 한 번에 정의합니다:
+머랭트립 하나면 여행 동선이 완성됩니다. 더 이상 지도 앱을 여러 번 띄워놓고 위치를 비교할 필요가 없습니다.
 
-- "이런 장소들이 **서로 가깝게 모여 있는 구역**을 찾아줘"
-  - 예: `카페 + 스터디룸 + 30분 이내 산책로`
-  - 예: `맛집 + 바 + 지하철역 10분 이내`
+### 🌟 데이트 코스 설계
 
-### 기술적 구현 방식
+"브런치 카페 + 산책로 + 저녁 레스토랑"
 
-MeringTrip은 3단계 최적화 프로세스를 통해 해결책을 제공합니다:
+하루 동선을 완벽하게 설계하세요. 이동 시간은 줄이고, 함께할 시간은 늘립니다.
 
-1. **데이터 수집**: 각 조건별 후보 장소를 동시에 수집
-2. **공간 분석**: 장소들의 **공간적 밀집도와 접근성**을 알고리즘 기반으로 분석  
-3. **시각화**: **다중 조건이 동시에 밀집한 최적 구역(군집)**을 지도 위에 직관적으로 표시
+### 🚶‍♂️ 로컬 탐방
 
-### 사용자 경험 혁신
+"혼술·혼카페 최적 동선"
 
-> 기존: "여러 번 검색하고 눈으로 겹쳐보는 작업"  
-> 혁신: **"한 번의 질의로 최적 구역을 자동 탐색하는 인텔리전스"**
+내 동네의 숨겨진 보석들을 반경 안에서 발견하세요. 지금까지 몰랐던 완벽한 동선을 만나보세요.
 
-이를 통해 사용자는 복잡한 탐색 과정을 획기적으로 단순화하고, 더 정확한 의사결정을 할 수 있게 됩니다.
+---
+
+<div class="bs-service-gallery">
+  <div class="bs-service-gallery__header">
+    <h3 class="bs-service-gallery__title">주요 기능 미리보기</h3>
+    <div class="bs-service-gallery__counter">
+      <span id="current-feature-meringuetrip">1</span> / 3
+    </div>
+  </div>
+  <div class="bs-gallery__container">
+    <div class="bs-gallery__slides" id="gallery-feature-meringuetrip">
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/01_search_modal.jpg" alt="복합 조건 검색" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">여러 장소 조건을 동시에 검색하고 최적의 군집 구역 발견</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/02_ranking.jpg" alt="군집 랭킹" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">최적의 장소 조합을 객관적인 데이터로 순위 표시</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/01_keywords_selected.jpg" alt="키워드 선택" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">정밀한 키워드 조합으로 원하는 장소 타입 정의</div>
+      </div>
+    </div>
+  </div>
+  <div class="bs-gallery__controls">
+    <div class="bs-gallery__nav">
+      <button class="bs-gallery__btn" onclick="prevSlide('feature-meringuetrip')" aria-label="이전">←</button>
+      <button class="bs-gallery__btn" onclick="nextSlide('feature-meringuetrip')" aria-label="다음">→</button>
+    </div>
+    <div class="bs-gallery__thumbs">
+      <div class="bs-gallery__thumb active" onclick="goToSlide('feature-meringuetrip', 0)">
+        <img src="/assets/images/services/meringuetrip/features/01_search_modal.jpg" alt="복합 조건 검색" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('feature-meringuetrip', 1)">
+        <img src="/assets/images/services/meringuetrip/features/02_ranking.jpg" alt="군집 랭킹" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('feature-meringuetrip', 2)">
+        <img src="/assets/images/services/meringuetrip/features/01_keywords_selected.jpg" alt="키워드 선택" loading="lazy">
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -118,23 +189,44 @@ MeringTrip은 3단계 최적화 프로세스를 통해 해결책을 제공합니
 **비즈니스 포인트**
 
 - 사용자는 “좋은 동네”를 찾고 싶지, “좋은 개별 장소”를 각각 찾고 싶은 게 아니다.
-- MeringTrip은 **“살기 좋은 동네 / 놀기 좋은 동네 / 일하기 좋은 동네”라는 공간 단위 의사결정**을 돕는 도구.
+- MeringTrip은 **“카페거리 / 사업 구역 / 데이트 코스”라는 장소 조합 단위 의사결정**을 돕는 도구.
 
 ---
 
 ### 4-2. 군집(Cluster) 기반 구역 추천
 
 - 지도에 **핀을 잔뜩 뿌리는 것**이 아니라,
-  - “이 주변이 조건에 가장 잘 맞는 구역입니다” 라는 **군집 단위**로 강조
+  - "이 주변이 조건에 가장 잘 맞는 구역입니다" 라는 **군집 단위**로 강조
 - 각 군집에는:
   - 포함된 장소 수
   - 카테고리별 균형
   - 접근성(대중교통, 중심지까지 거리 등)을 지표화하여 제공 가능
 
+<div class="bs-comparison-card">
+  <div class="bs-comparison__side">
+    <div class="bs-comparison__badge old">기존 방식</div>
+    <h3 class="bs-comparison__title">장소 개별 검색</h3>
+    <p class="bs-comparison__content">
+      카페 검색 → 핀만 표시<br>
+      호텔 검색 → 다시 검색<br>
+      사용자가 직접 동선을 계산하며 최적지 추측
+    </p>
+  </div>
+  <div class="bs-comparison__side">
+    <div class="bs-comparison__badge new">머랭트립</div>
+    <h3 class="bs-comparison__title">반경 기반 동선 설계</h3>
+    <p class="bs-comparison__content">
+      <strong>카페 + 호텔 + 술집</strong> 동시 검색<br>
+      도보 가능한 거리 안에 모여있는 구역 자동 발견<br>
+      이동 시간 최소화로 완벽한 하루 설계
+    </p>
+  </div>
+</div>
+
 **비즈니스 포인트**
 
 - 사용자는 하나하나 핀을 클릭하는 대신:
-  - “여기가 이번 주말에 돌아다니기 좋은 동네구나”를 **5초 안에 직관적으로 이해**.
+  - "여기가 이번 주말에 돌아다니기 좋은 동네구나"를 **5초 안에 직관적으로 이해**.
 - 향후 **부동산, 상권 분석, 상점 입지 선정** 같은 B2B 시나리오로 확장도 가능.
 
 ---
@@ -164,53 +256,117 @@ MeringTrip 방식:
 
 ---
 
-## 5. 카카오맵/네이버지도 대비 차별점 요약
+<script src="/assets/js/gallery-script.js"></script>
 
-| 항목                         | 기존 지도(카카오/네이버)                     | MeringTrip                                   |
-|------------------------------|----------------------------------------------|----------------------------------------------|
-| 검색 단위                    | 단일 키워드/카테고리                        | 복수 키워드/카테고리의 **조합**             |
-| 결과 표현                    | 개별 핀 나열                                | **구역(Cluster)** 단위 추천                 |
-| 교집합 찾기                  | 사용자가 눈으로 직접 겹쳐봐야 함           | **엔진이 자동으로 교집합 구역 계산**       |
-| 의사결정 단위                | “어느 카페 갈까?”                           | “**어느 동네에서 시간을 보낼까?**”         |
-| 사용자 작업량                | 검색 반복 + 시각적 비교                     | 단일 검색 → 상위 군집 몇 개만 비교         |
+## 카카오맵/네이버지도 대비 차별점
+
+| 항목                         | 기존 지도(카카오/네이버)                     | 머랭트립                                   |
+|------------------------------|----------------------------------------------|---------------------------------------------|
+| 검색 기준                    | 장소 위치                                    | **사람의 이동 거리**                        |
+| 검색 단위                    | 단일 장소                                    | **반경 + 다중 장소 조합**                   |
+| 결과 표현                    | 개별 핀 나열                                | **동선 가능한 구역** 단위 추천             |
+| 의사결정 단위                | "어디 갈까?"                                 | "**어떻게 이동할까?**"                     |
+| 사용자 작업량                | 여러 번 검색 + 직접 동선 계산               | 한 번의 반경 설정 → 완벽한 하루 완성      |
 
 ---
 
 ## 6. 대표 사용 시나리오
 
-### 시나리오 1. “스터디 모임하기 좋은 동네 찾기”
+<div class="bs-feature-showcase">
+  <div class="bs-feature-showcase__header">
+    <div class="bs-feature-showcase__icon">🎯</div>
+    <div>
+      <h3 class="bs-feature-showcase__title">시나리오 1: 스터디 모임 최적 동네 찾기</h3>
+      <p class="bs-feature-showcase__subtitle">여러 조건을 만족하는 완벽한 장소 조합 발견</p>
+    </div>
+  </div>
+  
+  <div class="bs-feature-showcase__content">
+    <div class="bs-screenshot-grid__row cols-2">
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/01_search_results.jpg" alt="검색 결과 화면" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">복합 조건 검색</div>
+        </div>
+      </div>
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/03_saved_places.jpg" alt="저장된 장소" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">최적 구역 저장</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bs-comparison-card">
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge old">기존 방식</div>
+        <h4 class="bs-comparison__title">복잡한 탐색 과정</h4>
+        <p class="bs-comparison__content">
+          강남 카페 → 괜찮은 카페들 찍어보기<br>
+          강남 스터디룸 → 다시 검색해서 비교<br>
+          지하철역 거리까지 고려하면 머리 복잡
+        </p>
+      </div>
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge new">머랭트립</div>
+        <h4 class="bs-comparison__title">한 번의 해결책</h4>
+        <p class="bs-comparison__content">
+          <strong>조용한 카페 + 스터디룸 + 지하철역 10분</strong><br>
+          세 조건이 동시에 밀집한 구역 상위 순으로 제시<br>
+          상위 1~3개 구역만 비교해서 바로 결정
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-기존:
-
-- `강남 카페` 검색 → 괜찮은 카페들 찍어본 뒤
-- `강남 스터디룸` 검색 → 또 찍어보고
-- 지하철역과의 거리까지 감안하면 머리가 복잡해짐
-
-MeringTrip:
-
-1. 조건 입력:
-   - `조용한 카페`
-   - `스터디룸/공유오피스`
-   - `지하철역 도보 10분`
-2. 검색 실행 →  
-   앱이 **이 세 조건이 동시에 밀집한 구역**만 상위 순으로 제시
-3. 사용자는 **상위 1~3개 구역만 비교해서 바로 결정**
-
----
-
-### 시나리오 2. “1일 데이트/나들이 동선 만들기”
-
-기존:
-
-- 브런치 카페 → 산책로 → 저녁 식당을 각각 찾고  
-- 지도에서 대략적으로 연결되는 위치인지 확인해야 함
-
-MeringTrip:
-
-1. 조건 입력:
-   - `브런치 카페`
-   - `산책/공원`
-   - `감성 레스토랑`
+<div class="bs-feature-showcase">
+  <div class="bs-feature-showcase__header">
+    <div class="bs-feature-showcase__icon">🌟</div>
+    <div>
+      <h3 class="bs-feature-showcase__title">시나리오 2: 완벽한 데이트 동선 계획</h3>
+      <p class="bs-feature-showcase__subtitle">브런치 → 산책 → 저녁 식사, 한 번에 찾기</p>
+    </div>
+  </div>
+  
+  <div class="bs-feature-showcase__content">
+    <div class="bs-screenshot-grid__row cols-1">
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meringuetrip/features/04_liked_routes.jpg" alt="좋아하는 경로" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">최적 동선 추천</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bs-comparison-card">
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge old">기존 방식</div>
+        <h4 class="bs-comparison__title">개별 장소 탐색</h4>
+        <p class="bs-comparison__content">
+          브런치 카페 → 각각 찾기<br>
+          산책로 → 다시 검색하고 위치 확인<br>
+          저녁 식당 → 세 군데 연결되는지 눈으로 비교
+        </p>
+      </div>
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge new">머랭트립</div>
+        <h4 class="bs-comparison__title">구역 단위 발견</h4>
+        <p class="bs-comparison__content">
+          <strong>브런치 + 산책/공원 + 감성 레스토랑</strong><br>
+          도보 동선 안에 모여있는 동네 자동 발견<br>
+          추천 동선과 시간대까지 제안 가능
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 2. 앱이 “이 세 가지가 **도보 동선 안에 모여 있는 동네**”를 찾아 줌
 3. 대표 클러스터 선택 → MeringTrip이 자동으로:
    - 동선 예시
@@ -235,7 +391,7 @@ MeringTrip은:
 
 ---
 
-## 8. 한 문단으로 정리하는 사업 설명
+## 머랭트립 앱 아이덴티티
 
 **MeringTrip은 기존 지도 서비스가 제공하지 않는  
 “복수 조건 기반 군집 검색”을 통해,**

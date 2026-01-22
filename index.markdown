@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brewstar (브루스타) - 별을 달여내어 표준이 되는 IT 기업
-description: 브루스타(Brewstar) - 별을 달여내어 표준이 되는 IT 기업. 혁신적인 모바일 앱 서비스로 일상의 가치를 높입니다.
+description: 브루스타(Brewstar) - 별을 달여내어 표준이 되는 IT 기업. 미유미유(커플 햅틱 연결), 미리페이(선불권 관리), 머랭트립(여행 동선 설계)으로 일상의 가치를 높입니다.
 ---
 
 <div class="bs-container">

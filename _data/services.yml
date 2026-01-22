@@ -3,7 +3,7 @@
   name_ko: "머랭트립"
   name_en: "MeringTrip"
   status: live
-  tagline: "복잡한 장소 조합을 한 번에 찾는 군집 기반 위치 탐색"
+  tagline: "반경으로 완성하는 여행 설계 도구"
   tech_stack:
     - Ionic (React)
     - Cloudflare
@@ -24,7 +24,7 @@
   name_ko: "미유미유"
   name_en: "MeyouMeyou"
   status: ios_live_android_wip
-  tagline: "장거리 커플을 위한 실시간 터치 공유"
+  tagline: "커플을 위한 햅틱 연결 앱"
   tech_stack:
     - Flutter
     - Supabase
@@ -43,7 +43,7 @@
   name_ko: "미리페이"
   name_en: "Miripay"
   status: wip
-  tagline: "가장 쉬운 모바일 선불 페이"
+  tagline: "수기 선불권을 가장 똑똑하게"
   tech_stack:
     - Flutter
     - Supabase

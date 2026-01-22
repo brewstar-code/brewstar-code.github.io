@@ -9,6 +9,9 @@ permalink: /meyoumeyou/
   <div class="bs-service-hero__content">
     <h1 class="bs-service-hero__title">MeyouMeyou</h1>
     <h2 class="bs-service-hero__subtitle">"만지고 싶은 마음을 전하다" – 커플을 위한 햅틱 연결 앱</h2>
+    <div class="bs-app-logo">
+      <img src="/assets/images/services/meyoumeyou/logo.png" alt="MeyouMeyou 로고" loading="lazy">
+    </div>
     <div class="bs-service-hero__stats">
       <div class="bs-service-stat">
         <div class="bs-service-stat__number">🤝</div>
@@ -21,6 +24,14 @@ permalink: /meyoumeyou/
       <div class="bs-service-stat">
         <div class="bs-service-stat__number">💝</div>
         <div class="bs-service-stat__label">디지털 스킨십</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="bs-screenshot-item__overlay">
+        <div class="bs-screenshot-item__title">부드러운 시작과 튜토리얼</div>
       </div>
     </div>
   </div>
@@ -80,6 +91,56 @@ permalink: /meyoumeyou/
 
 ---
 
+<div class="bs-service-gallery">
+  <div class="bs-service-gallery__header">
+    <h3 class="bs-service-gallery__title">주요 기능 미리보기</h3>
+    <div class="bs-service-gallery__counter">
+      <span id="current-feature-meyoumeyou">1</span> / 3
+    </div>
+  </div>
+  <div class="bs-gallery__container">
+    <div class="bs-gallery__slides" id="gallery-feature-meyoumeyou">
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/features/heart-mode.jpg" alt="실시간 햅틱 하트" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">3D 하트 터치로 실시간 진동 전달 - 쓰다듬기, 꾹 누르기, 빠르게 두드리기</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/features/connection-hub.jpg" alt="커넥션 허브" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">파트너 접속 상태 실시간 확인 - 지금 당장 만질 수 있어요!</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/features/qr-code.jpg" alt="QR 코드 연결" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">QR코드 스캔으로 간편한 파트너 연결 및 오프라인 호출 기능</div>
+      </div>
+    </div>
+  </div>
+  <div class="bs-gallery__controls">
+    <div class="bs-gallery__nav">
+      <button class="bs-gallery__btn" onclick="prevSlide('feature-meyoumeyou')" aria-label="이전">←</button>
+      <button class="bs-gallery__btn" onclick="nextSlide('feature-meyoumeyou')" aria-label="다음">→</button>
+    </div>
+    <div class="bs-gallery__thumbs">
+      <div class="bs-gallery__thumb active" onclick="goToSlide('feature-meyoumeyou', 0)">
+        <img src="/assets/images/services/meyoumeyou/features/heart-mode.jpg" alt="실시간 햅틱 하트" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('feature-meyoumeyou', 1)">
+        <img src="/assets/images/services/meyoumeyou/features/connection-hub.jpg" alt="커넥션 허브" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('feature-meyoumeyou', 2)">
+        <img src="/assets/images/services/meyoumeyou/features/qr-code.jpg" alt="QR 코드 연결" loading="lazy">
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
 ## 4. 주요 기능
 
 ### 4-1. 실시간 햅틱 하트 (Real-time Haptic Heart)
@@ -88,13 +149,89 @@ permalink: /meyoumeyou/
 - **다양한 촉감 구현**:
   - `쓰다듬기`: 부드럽고 잔잔한 진동
   - `꾹 누르기`: 묵직하고 강한 심장 박동
+  - `빠르게 두드리기`: 재기발랄한 장난스러운 진동
 - **시각적 반응**: 내가 만지는 그대로 하트가 움츠러들거나 빛납니다. (Inner Shine & Glow 효과)
+
+<div class="bs-feature-showcase">
+  <div class="bs-feature-showcase__header">
+    <div class="bs-feature-showcase__icon">💝</div>
+    <div>
+      <h4 class="bs-feature-showcase__title">다양한 터치 패턴</h4>
+      <p class="bs-feature-showcase__subtitle">마음을 진동으로 표현하는 3가지 방식</p>
+    </div>
+  </div>
+  
+  <div class="bs-feature-showcase__content">
+    <div class="bs-screenshot-grid__row cols-1">
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/interactions/pen-mode.jpg" alt="펜 모드 인터랙션" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">감정선 그리기</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bs-comparison-card">
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge old">일반 메신저</div>
+        <h4 class="bs-comparison__title">텍스트 전송</h4>
+        <p class="bs-comparison__content">
+          "보고 싶어" 메시지 전송<br>
+          응답을 기다리는 불안감<br>
+          감정이 평면적으로 전달됨
+        </p>
+      </div>
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge new">미유미유</div>
+        <h4 class="bs-comparison__title">실시간 햅틱</h4>
+        <p class="bs-comparison__content">
+          <strong>하트 터치 즉시 전달</strong><br>
+          0.1초 만에 상대방 폰이 떨림<br>
+          감정이 입체적으로 전달됨
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ### 4-2. 파트너 접속 감지 (Presence)
 
 - 앱에 들어오면 상대방이 접속 중인지 바로 알 수 있습니다.
 - **초록색 불**: "지금 당장 만질 수 있어요!"
 - **회색 불**: "잠시 자리를 비웠어요."
+
+<div class="bs-feature-showcase">
+  <div class="bs-feature-showcase__header">
+    <div class="bs-feature-showcase__icon">📱</div>
+    <div>
+      <h4 class="bs-feature-showcase__title">실시간 연결 상태</h4>
+      <p class="bs-feature-showcase__subtitle">파트너의 접속을 시각적으로 확인</p>
+    </div>
+  </div>
+  
+  <div class="bs-feature-showcase__content">
+    <div class="bs-screenshot-grid__row cols-2">
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/tutorials/01_intro.jpg" alt="튜토리얼 시작" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">친절한 튜토리얼</div>
+        </div>
+      </div>
+      <div class="bs-screenshot-item">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/tutorials/02_functions.jpg" alt="기능 안내" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-screenshot-item__overlay">
+          <div class="bs-screenshot-item__title">주요 기능 안내</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ### 4-3. 오프라인 호출 (Nudge)
 
@@ -103,13 +240,110 @@ permalink: /meyoumeyou/
 - 파트너에게 **"OO님이 당신을 찾고 있어요!"**라는 푸시 알림이 전송됩니다.
 - 부담스러운 전화 대신, 가벼운 "톡톡" 신호로 서로를 찾을 수 있습니다.
 
+<div class="bs-service-gallery">
+  <div class="bs-service-gallery__header">
+    <h3 class="bs-service-gallery__title">앱 사용법 튜토리얼</h3>
+    <div class="bs-service-gallery__counter">
+      <span id="current-tutorial-meyoumeyou">1</span> / 3
+    </div>
+  </div>
+  <div class="bs-gallery__container">
+    <div class="bs-gallery__slides" id="gallery-tutorial-meyoumeyou">
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/tutorials/01_intro.jpg" alt="튜토리얼 시작" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">미유미유 시작하기 - 파트너와 연결하는 첫 단계</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/tutorials/02_functions.jpg" alt="기능 안내" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">주요 기능 안내 - 햅틱 하트로 감정 전달하는 방법</div>
+      </div>
+      <div class="bs-gallery__slide">
+        <div class="bs-device-frame">
+          <img src="/assets/images/services/meyoumeyou/tutorials/03_start.jpg" alt="시작 안내" loading="lazy" class="bs-device-frame__content">
+        </div>
+        <div class="bs-gallery__caption">실제 사용법 - 지금 바로 파트너에게 마음 전하기</div>
+      </div>
+    </div>
+  </div>
+  <div class="bs-gallery__controls">
+    <div class="bs-gallery__nav">
+      <button class="bs-gallery__btn" onclick="prevSlide('tutorial-meyoumeyou')" aria-label="이전">←</button>
+      <button class="bs-gallery__btn" onclick="nextSlide('tutorial-meyoumeyou')" aria-label="다음">→</button>
+    </div>
+    <div class="bs-gallery__thumbs">
+      <div class="bs-gallery__thumb active" onclick="goToSlide('tutorial-meyoumeyou', 0)">
+        <img src="/assets/images/services/meyoumeyou/tutorials/01_intro.jpg" alt="튜토리얼 시작" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('tutorial-meyoumeyou', 1)">
+        <img src="/assets/images/services/meyoumeyou/tutorials/02_functions.jpg" alt="기능 안내" loading="lazy">
+      </div>
+      <div class="bs-gallery__thumb" onclick="goToSlide('tutorial-meyoumeyou', 2)">
+        <img src="/assets/images/services/meyoumeyou/tutorials/03_start.jpg" alt="시작 안내" loading="lazy">
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="bs-screenshot-item__overlay">
+        <div class="bs-screenshot-item__title">쉬운 시작</div>
+      </div>
+    </div>
+    <div class="bs-screenshot-item">
+      <div class="bs-device-frame">
+        <img src="/assets/images/services/meyoumeyou/features/qr-code.jpg" alt="QR 코드 호출" loading="lazy" class="bs-device-frame__content">
+      </div>
+      <div class="bs-screenshot-item__overlay">
+        <div class="bs-screenshot-item__title">가벼운 호출</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 ### 4-4. 케미스트리 효과 (Chemistry)
 
 - 두 사람이 **동시에** 하트를 만지면?
 - 화면에 **폭죽이 터지며(Particle Explosion)** 특별한 진동 패턴이 발생합니다.
 - 서로 통했다는 짜릿한 쾌감을 시각과 촉각으로 동시에 선사합니다.
 
+<div class="bs-feature-showcase">
+  <div class="bs-feature-showcase__header">
+    <div class="bs-feature-showcase__icon">✨</div>
+    <div>
+      <h4 class="bs-feature-showcase__title">케미스트리 효과</h4>
+      <p class="bs-feature-showcase__subtitle">동시 접속의 짜릿한 순간</p>
+    </div>
+  </div>
+  
+  <div class="bs-feature-showcase__content">
+    <div class="bs-comparison-card">
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge old">일반 연락</div>
+        <h4 class="bs-comparison__title">비동기 소통</h4>
+        <p class="bs-comparison__content">
+          메시지 보내고 응답 대기<br>
+          시차로 인한 감정 단절<br>
+          "지금 너 생각나" 표현의 어려움
+        </p>
+      </div>
+      <div class="bs-comparison__side">
+        <div class="bs-comparison__badge new">미유미유</div>
+        <h4 class="bs-comparison__title">동시적 연결</h4>
+        <p class="bs-comparison__content">
+          <strong>동시 터치 시 폭죽 이펙트</strong><br>
+          시각+촉각 동시 자극<br>
+          "지금 이 순간" 감정 공유
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 ---
+
+<script src="/assets/js/gallery-script.js"></script>
 
 ## 5. 기존 메신저 대비 차별점
 

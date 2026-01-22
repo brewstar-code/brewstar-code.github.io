@@ -1,0 +1,39 @@
+meringuetrip:
+  logo: /assets/images/services/meringuetrip/logo.png
+  preview_gallery:
+    - url: /assets/images/services/meringuetrip/hero-map-home.jpg
+      alt: 머랭트립 메인 지도 화면
+      caption: 복합 조건 검색을 위한 인터랙티브 맵
+    - url: /assets/images/services/meringuetrip/features/01_search_modal.jpg
+      alt: 머랭트립 검색 모달
+      caption: 여러 장소 조건을 동시에 검색
+    - url: /assets/images/services/meringuetrip/features/02_ranking.jpg
+      alt: 머랭트립 랭킹 화면
+      caption: 최적의 군집 구역 순위 표시
+  feature_showcase:
+    - url: /assets/images/services/meringuetrip/features/03_saved_places.jpg
+      alt: 저장된 장소
+      caption: 자주 찾는 장소 빠른 접근
+    - url: /assets/images/services/meringuetrip/features/04_liked_routes.jpg
+      alt: 좋아하는 경로
+      caption: 추천 경로 및 동선 관리
+
+meyoumeyou:
+  logo: /assets/images/services/meyoumeyou/logo.png
+  preview_gallery:
+    - url: /assets/images/services/meyoumeyou/splash.jpg
+      alt: 미유미유 시작 화면
+      caption: 부드러운 시작과 튜토리얼
+    - url: /assets/images/services/meyoumeyou/features/heart-mode.jpg
+      alt: 미유미유 하트 모드
+      caption: 실시간 햅틱 터치 연결
+    - url: /assets/images/services/meyoumeyou/features/connection-hub.jpg
+      alt: 미유미유 커넥션 허브
+      caption: 파트너와의 감정적 연결 상태
+  feature_showcase:
+    - url: /assets/images/services/meyoumeyou/features/qr-code.jpg
+      alt: QR 코드 연결
+      caption: 쉽고 빠른 파트너 연결
+    - url: /assets/images/services/meyoumeyou/interactions/pen-mode.jpg
+      alt: 펜 모드 인터랙션
+      caption: 다양한 터치 패턴 표현
