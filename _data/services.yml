@@ -3,7 +3,7 @@
   name_ko: "머랭트립"
   name_en: "MeringTrip"
   status: live
-  tagline: "반경으로 완성하는 여행 설계 도구"
+  tagline: "반경 검색으로 완성하는 똑똑한 여행 설계"
   tech_stack:
     - Flutter
     - Cloudflare

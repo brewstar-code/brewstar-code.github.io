@@ -29,36 +29,28 @@ permalink: /meyoumeyou/
   </div>
 </div>
 
-
-      <div class="bs-screenshot-item__overlay">
-        <div class="bs-screenshot-item__title">부드러운 시작과 튜토리얼</div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="bs-service-definition">
   <h2 class="bs-service-definition__title">서비스 핵심 가치</h2>
   <p class="bs-service-definition__text">
     <strong>미유미유(MeyouMeyou)</strong>는 텍스트와 이모티콘으로는 표현할 수 없는 깊은 감정을 
     <strong>실시간 햅틱 기술로 파트너에게 직접 전달</strong>하는 혁신적인 커플 연결 플랫폼입니다.
     "보고 싶다", "생각난다"는 마음을 화면 터치의 촉감으로 변환하여 
-    상대방의 손끝에 생생한 진동으로 전달하는 차세대 디지털 스킨십 서비스입니다.
+    상대방의 손끝에 생생한 진동으로 전달하는 차세대 디지털 스킨십 서비스를 제공합니다.
   </p>
 </div>
 
 ---
 
-## 문제 정의: 기존 커플 앱의 감정적 한계
+## 1. 문제 정의: 기존 커플 앱의 감정적 한계
 
 ### 시장 분석: 텍스트 중심의 소통 한계
 
-현대 커플 앱과 메신저 서비스는 **"텍스트/시각 기반"** 소통에 한정되어 있어 깊은 감정적 연결에 한계가 있습니다:
+현대 커플 앱과 메신저 서비스는 **"텍스트/시각 기반"** 소통에 한정되어 있어 깊은 감정적 연결을 형성하는 데 한계가 있습니다:
 
 ### 기존 방식의 감정적 부족
-- **텍스트 전송**: `보고 싶어` 메시지 전송 후 응답 대기의 불안감
-- **이모티콘 소통**: 시각적 표현에 그쳐 실질적인 감정 전달 부족
-- **감정의 격차**: **"지금 당장 너를 만지고 싶어"**라는 신체적 갈망 해소 불가
+- **텍스트 전송**: "보고 싶어" 메시지 전송 후 응답을 기다리는 불안감
+- **이모티콘 소통**: 시각적 표현에 그쳐 실질적인 감정 전달이 부족
+- **감정의 격차**: **"지금 당장 너를 만지고 싶어"**라는 신체적 갈망을 해소할 수 없음
 
 ### 사용자 경험의 한계
 1. **감정의 왜곡**: 깊은 감정이 텍스트로 평면화됨
@@ -69,16 +61,16 @@ permalink: /meyoumeyou/
 
 ---
 
-## 3. 미유미유가 제공하는 핵심 가치
+## 2. 미유미유가 제공하는 핵심 가치
 
 **미유미유의 본질은 "디지털 스킨십"입니다.**
 
 사용자는 단순히 이렇게 느낍니다.
 
-- "내가 폰 화면을 문질렀더니, **저 멀리 있는 애인의 폰이 부르르 떨린다.**"
-  - 세게 누르면 → **강한 진동** (심장 박동 같은)
-  - 살살 문지르면 → **간지러운 진동** (쓰다듬는 듯한)
-  - 빠르게 두드리면 → **재기발랄한 진동** (장난치는 듯한)
+- "내가 폰 화면을 터치하면, **저 멀리 있는 연인의 폰이 부르르 떨립니다.**"
+  - 세게 누르면 → **강한 진동** (심장 박동처럼)
+  - 살살 문지르면 → **부드러운 진동** (쓰다듬는 듯이)
+  - 빠르게 두드리면 → **경쾌한 진동** (장난치는 듯이)
 
 미유미유는:
 
@@ -141,16 +133,16 @@ permalink: /meyoumeyou/
 
 ---
 
-## 4. 주요 기능
+## 3. 주요 기능
 
-### 4-1. 실시간 햅틱 하트 (Real-time Haptic Heart)
+### 3-1. 실시간 햅틱 하트 (Real-time Haptic Heart)
 
-- 화면 중앙의 3D 하트를 만지면, 연결된 파트너에게 진동이 전달됩니다.
+- 화면 중앙의 3D 하트를 터치하면, 연결된 파트너에게 진동이 실시간으로 전달됩니다.
 - **다양한 촉감 구현**:
   - `쓰다듬기`: 부드럽고 잔잔한 진동
-  - `꾹 누르기`: 묵직하고 강한 심장 박동
-  - `빠르게 두드리기`: 재기발랄한 장난스러운 진동
-- **시각적 반응**: 내가 만지는 그대로 하트가 움츠러들거나 빛납니다. (Inner Shine & Glow 효과)
+  - `꾹 누르기`: 묵직하고 강한 심장 박동 같은 진동
+  - `빠르게 두드리기`: 경쾌하고 장난스러운 진동
+- **시각적 반응**: 터치에 따라 하트가 움츠러들거나 빛나는 효과를 제공합니다. (Inner Shine & Glow 효과)
 
 <div class="bs-feature-showcase">
   <div class="bs-feature-showcase__header">
@@ -196,11 +188,11 @@ permalink: /meyoumeyou/
   </div>
 </div>
 
-### 4-2. 파트너 접속 감지 (Presence)
+### 3-2. 파트너 접속 감지 (Presence)
 
-- 앱에 들어오면 상대방이 접속 중인지 바로 알 수 있습니다.
-- **초록색 불**: "지금 당장 만질 수 있어요!"
-- **회색 불**: "잠시 자리를 비웠어요."
+- 앱을 열면 파트너의 접속 상태를 즉시 확인할 수 있습니다.
+- **초록색 표시**: "지금 바로 연결할 수 있어요!"
+- **회색 표시**: "현재 자리를 비웠습니다."
 
 <div class="bs-feature-showcase">
   <div class="bs-feature-showcase__header">
@@ -215,30 +207,30 @@ permalink: /meyoumeyou/
     <div class="bs-screenshot-grid__row cols-2">
       <div class="bs-screenshot-item">
         <div class="bs-device-frame">
-          <img src="/assets/images/services/meyoumeyou/tutorials/01_intro.jpg" alt="튜토리얼 시작" loading="lazy" class="bs-device-frame__content">
+          <img src="/assets/images/services/meyoumeyou/features/heart-mode.jpg" alt="하트모드" loading="lazy" class="bs-device-frame__content">
         </div>
         <div class="bs-screenshot-item__overlay">
-          <div class="bs-screenshot-item__title">친절한 튜토리얼</div>
+          <div class="bs-screenshot-item__title">하트모드</div>
         </div>
       </div>
       <div class="bs-screenshot-item">
         <div class="bs-device-frame">
-          <img src="/assets/images/services/meyoumeyou/tutorials/02_functions.jpg" alt="기능 안내" loading="lazy" class="bs-device-frame__content">
+          <img src="/assets/images/services/meyoumeyou/interactions/pen-mode.jpg" alt="펜모드" loading="lazy" class="bs-device-frame__content">
         </div>
         <div class="bs-screenshot-item__overlay">
-          <div class="bs-screenshot-item__title">주요 기능 안내</div>
+          <div class="bs-screenshot-item__title">펜모드</div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-### 4-3. 오프라인 호출 (Nudge)
+### 3-3. 오프라인 호출 (Nudge)
 
-- 상대방이 앱을 켜지 않았을 때 하트를 누르면?
-- **"상대방을 불렀어요!"**라는 메시지와 함께,
+- 파트너가 앱을 실행하지 않은 상태에서 하트를 터치하면
+- **"파트너를 호출했어요!"**라는 메시지와 함께,
 - 파트너에게 **"OO님이 당신을 찾고 있어요!"**라는 푸시 알림이 전송됩니다.
-- 부담스러운 전화 대신, 가벼운 "톡톡" 신호로 서로를 찾을 수 있습니다.
+- 부담스러운 전화 대신, 가벼운 신호로 서로를 찾을 수 있습니다.
 
 <div class="bs-service-gallery">
   <div class="bs-service-gallery__header">
@@ -287,26 +279,13 @@ permalink: /meyoumeyou/
     </div>
   </div>
 </div>
-      <div class="bs-screenshot-item__overlay">
-        <div class="bs-screenshot-item__title">쉬운 시작</div>
-      </div>
-    </div>
-    <div class="bs-screenshot-item">
-      <div class="bs-device-frame">
-        <img src="/assets/images/services/meyoumeyou/features/qr-code.jpg" alt="QR 코드 호출" loading="lazy" class="bs-device-frame__content">
-      </div>
-      <div class="bs-screenshot-item__overlay">
-        <div class="bs-screenshot-item__title">가벼운 호출</div>
-      </div>
-    </div>
-  </div>
-</div>
 
-### 4-4. 케미스트리 효과 (Chemistry)
 
-- 두 사람이 **동시에** 하트를 만지면?
-- 화면에 **폭죽이 터지며(Particle Explosion)** 특별한 진동 패턴이 발생합니다.
-- 서로 통했다는 짜릿한 쾌감을 시각과 촉각으로 동시에 선사합니다.
+### 3-4. 케미스트리 효과 (Chemistry)
+
+- 두 사람이 **동시에** 하트를 터치하면
+- 화면에 **폭죽 효과(Particle Explosion)**와 함께 특별한 진동 패턴이 발생합니다.
+- 서로 교감하는 짜릿한 순간을 시각과 촉각으로 동시에 경험할 수 있습니다.
 
 <div class="bs-feature-showcase">
   <div class="bs-feature-showcase__header">
@@ -345,37 +324,37 @@ permalink: /meyoumeyou/
 
 <script src="/assets/js/gallery-script.js"></script>
 
-## 5. 기존 메신저 대비 차별점
+## 4. 기존 메신저 대비 차별점
 
-| 항목          | 기존 메신저 (카톡/라인 등)       | 미유미유 (MeyouMeyou)             |
+| 항목          | 기존 메신저 (카카오톡/라인 등)   | 미유미유 (MeyouMeyou)             |
 | :------------ | :------------------------------- | :-------------------------------- |
 | **소통 수단** | 텍스트, 이모티콘, 사진           | **진동(Haptic), 터치, 압력**      |
 | **감정 전달** | "읽고 생각하고 쓰는" 이성적 과정 | **"느끼고 반응하는" 직관적 과정** |
-| **실시간성**  | 비동기 (보내고 답장 기다림)      | **동기 (실시간 싱크)**            |
-| **목적**      | 정보 전달, 대화                  | **정서적 교감, 스킨십 대리**      |
+| **실시간성**  | 비동기 (메시지 전송 후 응답 대기)      | **동기 (실시간 동기화)**            |
+| **목적**      | 정보 전달, 대화                  | **정서적 교감, 디지털 스킨십**      |
 
 ---
 
-## 6. 사용 시나리오
+## 5. 사용 시나리오
 
 ### 시나리오 1. "잠들기 전, 목소리는 깨울까 봐 걱정될 때"
 
-- 침대에 누워 미유미유를 켭니다.
-- 상대방도 접속해 있습니다.
-- 말없이 하트를 살살 문지릅니다.
-- 상대방의 베개 밑 폰에서 '지징- 지징-' 부드러운 진동이 울립니다.
-- "나 여기 있어, 잘 자"라는 신호를 소리 없이 주고받습니다.
+- 침대에 누워 미유미유를 실행합니다.
+- 파트너도 앱에 접속해 있습니다.
+- 말없이 하트를 부드럽게 터치합니다.
+- 파트너의 베개 밑 폰에서 '지징- 지징-' 부드러운 진동이 울립니다.
+- "나 여기 있어, 잘 자"라는 신호를 소리 없이 주고받을 수 있습니다.
 
 ### 시나리오 2. "일하다가 문득 생각날 때"
 
-- 바쁜 업무 중, 길게 톡 보내긴 좀 그렇고.
-- 앱을 켜서 하트를 '꾹-' 한 번 누릅니다.
-- 상대방에게 짧고 굵은 진동이 갑니다.
-- "나 지금 네 생각 했어"라는 가벼운 투정 혹은 애정 표현이 됩니다.
+- 바쁜 업무 중, 긴 메시지를 보내기는 부담스럽습니다.
+- 앱을 실행해서 하트를 '꾹-' 한 번 누릅니다.
+- 파트너에게 짧고 강한 진동이 전달됩니다.
+- "나 지금 네 생각 했어"라는 가벼운 애정 표현이 됩니다.
 
 ---
 
-## 7. 다운로드 및 지원
+## 6. 다운로드 및 지원
 
 **지금 바로 파트너와 연결해보세요.**
 
